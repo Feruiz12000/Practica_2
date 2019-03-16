@@ -6,6 +6,7 @@ public bool registrarNuevoUsuario (Usuario user){
     return true;
 }
 
+<<<<<<< HEAD
 
 /*
 *@param user contiene toda la informacion del usuario
@@ -24,3 +25,13 @@ public void crearPlayList(Usuario user, PlayList playlist){
 
 }
 
+=======
+public bool Login(String usuario, String contraseña)
+{
+	//verificar el usuario y contraseña en la base de datos
+	//si cumple entonces se muestra la pantalla de bienvenida
+	//sino se muestra un mensaje de error
+	//
+	return estado_sesion;
+}
+>>>>>>> 9433286e00d607f3568dcb6693e430e9882b1294
