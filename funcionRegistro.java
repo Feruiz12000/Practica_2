@@ -25,6 +25,15 @@ public void crearPlayList(Usuario user, PlayList playlist){
 
 }
 
+
+public void BuscarCancion(Usuario user, Cancion cancion){
+	//variable user contiene los datos del usuario
+	user.addPlaylist(playlist);//añadir playlist al usuario
+
+	//realizamos una consulta a la base de datos, buscando la cancion solicitada
+	mysql.buscarCancion(user.cancion);
+}
+
 =======
 public bool Login(String usuario, String contraseña)
 {
