@@ -7,8 +7,8 @@ public bool Reproducir(Usuario user, Cancion cancion){
 
 //---------reproduccion en modo aleatorio----------
 	cancion.play(Random);
+
+	cancion.play(noRandom)
 	
     return true;
 }
-
-
